@@ -13,6 +13,9 @@ function bar(foo) {
 
 console.log(String(23));
 
+var n = 42;
+
 exports.foo = foo;
+exports.n = n;
 exports.bar = bar;
 /*  Not a pure module */
